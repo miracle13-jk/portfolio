@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a4cbf0;
+    text-align:  justify;
+   
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1:hover {
+    color: #7d99e8;
+}
+
+.project a {
+    text-decoration: none;
+    color: rgb(17, 24, 27);
+}
+
+.project a:hover {
+    color: rgb(126, 87, 152);
+}
+
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  .portfolio-item {
+    display: flex; 
+    align-items: center;
+  }
+  
+  .portfolio-item img {
+    float: right; 
+    width: 30%; 
+    margin-right: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .portfolio-item {
+      flex-direction: column;
+    }
+    .portfolio-item img {
+      float: none; 
+      width: 100%;
+      margin-right: 0; 
+    }
+  }
